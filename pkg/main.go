@@ -1,7 +1,7 @@
 package pkg
 
 import (
-	stackjobrunnerkubernetesv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/apis/provider/kubernetes/stackjobrunnerkubernetes/v1"
+	stackjobrunnerkubernetesv1 "buf.build/gen/go/plantoncloud/project-planton/protocolbuffers/go/project/planton/provider/kubernetes/stackjobrunnerkubernetes/v1"
 	"github.com/pkg/errors"
 	"github.com/plantoncloud/pulumi-module-golang-commons/pkg/provider/kubernetes/pulumikubernetesprovider"
 	"github.com/pulumi/pulumi/sdk/v3/go/pulumi"
